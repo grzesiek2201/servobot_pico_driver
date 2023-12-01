@@ -1,0 +1,9 @@
+<library path="servobot_pico_driver">
+  <class name="servobot_pico_driver/ServoBotSystemPositionOnlyHardware"
+         type="servobot_pico_driver::ServoBotSystemPositionOnlyHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control ServoBot example using a system hardware interface-type.
+    </description>
+  </class>
+</library>
