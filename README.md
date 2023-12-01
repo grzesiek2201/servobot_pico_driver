@@ -3,7 +3,7 @@
 ## Description
 Servobot is a 3dof robot based on hobby servos. This repo serves as a Hardware Interface driver for the robot, which in turn can be used to interact with the robot through other packages, such as moveit2.
 
-The driver uses a Serial connection (e.g. USB) to talk to Raspberry Pi Pico, or any other microcontroller serving as an interface between the robot and the ROS2.
+The driver uses a Serial connection (e.g. USB) to talk to Raspberry Pi Pico (e.g. using this freeRTOS [example](https://github.com/grzesiek2201/pico-rtos-servo-control)), or any other microcontroller serving as an interface between the robot and the ROS2.
 
 Built and tested on ROS2 Humble.
 
