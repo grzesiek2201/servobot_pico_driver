@@ -1,5 +1,10 @@
-# ros2_control_demo_example_1
+# servobot_pico_driver
 
-   *RRBot* - or ''Revolute-Revolute Manipulator Robot'' - a simple position controlled robot with one hardware interface. This example also demonstrates the switching between different controllers.
+## Description
+Servobot is a 3dof robot based on hobby servos. This repo serves as a Hardware Interface driver for the robot, which in turn can be used to interact with the robot through other packages, such as moveit2.
 
-Find the documentation in [doc/userdoc.rst](doc/userdoc.rst) or on [control.ros.org](https://control.ros.org/master/doc/ros2_control_demos/example_1/doc/userdoc.html).
+The driver uses a Serial connection (e.g. USB) to talk to Raspberry Pi Pico, or any other microcontroller serving as an interface between the robot and the ROS2.
+
+Built and tested on ROS2 Humble.
+
+This package is based on the official RRBot example from the [ros2_control_demos](https://github.com/ros-controls/ros2_control_demos) repo.
