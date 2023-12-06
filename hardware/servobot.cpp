@@ -190,7 +190,7 @@ hardware_interface::return_type ServoBotSystemPositionOnlyHardware::write(
       hw_commands_[i], i);
 
     // Send command to the Pico
-    std::string cmd{"p "};
+    std::string cmd{"m "};
     cmd += std::to_string(i) + " ";
     cmd += std::to_string(hw_commands_.at(i)) + "\n";
     _serial_driver.writeLine(cmd);
